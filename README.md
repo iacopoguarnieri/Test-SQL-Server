@@ -1,4 +1,4 @@
-# TestInterlogica
+# Test SQL Server
 Script per DB in SQL Server per caricare record da file csv
 
 # File presenti nella repository
