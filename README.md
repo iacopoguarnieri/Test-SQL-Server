@@ -1,5 +1,5 @@
 # TestInterlogica
-Script per DB in SQL Server per test azienda Interlogica
+Script per DB in SQL Server per caricare record da file csv
 
 # File presenti nella repository
 1) Script per creare il DB
