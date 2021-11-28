@@ -1,18 +1,14 @@
 {\rtf1\ansi\ansicpg1252\cocoartf2580
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset0 Menlo-Regular;}
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 Menlo-Regular;\f1\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;\red0\green0\blue255;\red255\green255\blue254;\red25\green25\blue25;
 \red0\green0\blue0;\red19\green120\blue72;\red144\green1\blue18;\red101\green76\blue29;}
 {\*\expandedcolortbl;;\cssrgb\c0\c0\c100000;\cssrgb\c100000\c100000\c99608;\cssrgb\c12941\c12941\c12941;
 \cssrgb\c0\c0\c0;\cssrgb\c3529\c53333\c35294;\cssrgb\c63922\c8235\c8235;\cssrgb\c47451\c36863\c14902;}
 \paperw11900\paperh16840\margl1440\margr1440\vieww18100\viewh8400\viewkind0
-\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
-
-\f0\fs24 \cf0 Per ogni query ho elaborato una stored procedure cos\'ec da poterla richiamare rapidamente\
-\
-Query 1:\
+\deftab720
 \pard\pardeftab720\sl360\partightenfactor0
 
-\f1 \cf2 \cb3 \expnd0\expndtw0\kerning0
+\f0\fs24 \cf2 \cb3 \expnd0\expndtw0\kerning0
 USE\cf4  TestDB;  \cb1 \
 \cf2 \cb3 GO\cf4   \cb1 \
 \cf2 \cb3 CREATE\cf4  \cf2 PROCEDURE\cf4  Query_1 \cb1 \
@@ -23,14 +19,12 @@ USE\cf4  TestDB;  \cb1 \
 \cb3     \cf2 WHERE\cf4  [Cilindrata] \cf5 >\cf4  \cf6 2000\cf4  \cf2 OR\cf4  [Potenza] \cf5 >\cf4  \cf6 120\cf4 ;  \cb1 \
 \cf2 \cb3 GO\cf4 \cb1 \
 \cf2 \cb3 EXEC\cf4  dbo.Query_1;\
-\pard\pardeftab720\sl360\partightenfactor0
-
-\f0 \cf0 \cb1 \kerning1\expnd0\expndtw0 \
 \pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
-\cf0 Query 2:\
+
+\f1 \cf0 \cb1 \kerning1\expnd0\expndtw0 \
 \pard\pardeftab720\sl360\partightenfactor0
 
-\f1 \cf2 \cb3 \expnd0\expndtw0\kerning0
+\f0 \cf2 \cb3 \expnd0\expndtw0\kerning0
 USE\cf4  TestDB;  \cb1 \
 \cf2 \cb3 GO\cf4   \cb1 \
 \cf2 \cb3 CREATE\cf4  \cf2 PROCEDURE\cf4  Query_2 \cb1 \
@@ -43,7 +37,6 @@ USE\cf4  TestDB;  \cb1 \
 \cf2 \cb3 EXEC\cf4  dbo.Query_2;\cb1 \
 \pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
 \cf4 \
-Query 3:\
 \pard\pardeftab720\sl360\partightenfactor0
 \cf2 \cb3 USE\cf4  TestDB;  \cb1 \
 \cf2 \cb3 GO\cf4   \cb1 \
@@ -58,7 +51,6 @@ Query 3:\
 \cf2 \cb3 EXEC\cf4  dbo.Query_3;\cb1 \
 \pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
 \cf4 \
-Query 4:\
 \pard\pardeftab720\sl360\partightenfactor0
 \cf2 \cb3 USE\cf4  TestDB;  \cb1 \
 \cf2 \cb3 GO\cf4   \cb1 \
@@ -74,7 +66,6 @@ Query 4:\
 \cf2 \cb3 EXEC\cf4  dbo.Query_4;\cb1 \
 \pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
 \cf4 \
-Query 5:\
 \pard\pardeftab720\sl360\partightenfactor0
 \cf2 \cb3 USE\cf4  TestDB;  \cb1 \
 \cf2 \cb3 GO\cf4   \cb1 \
@@ -91,7 +82,6 @@ Query 5:\
 \cf2 \cb3 EXEC\cf4  dbo.Query_5;\cb1 \
 \pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
 \cf4 \
-Query 6:\
 \pard\pardeftab720\sl360\partightenfactor0
 \cf2 \cb3 USE\cf4  TestDB;  \cb1 \
 \cf2 \cb3 GO\cf4   \cb1 \
@@ -107,7 +97,6 @@ Query 6:\
 \cf2 \cb3 EXEC\cf4  dbo.Query_6;\cb1 \
 \pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
 \cf4 \
-Query 7:\
 \pard\pardeftab720\sl360\partightenfactor0
 \cf2 \cb3 USE\cf4  TestDB;  \cb1 \
 \cf2 \cb3 GO\cf4   \cb1 \
@@ -124,7 +113,6 @@ Query 7:\
 \cf2 \cb3 EXEC\cf4  dbo.Query_7;\cb1 \
 \pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
 \cf4 \
-Query 8:\
 \pard\pardeftab720\sl360\partightenfactor0
 \cf2 \cb3 USE\cf4  TestDB;  \cb1 \
 \cf2 \cb3 GO\cf4   \cb1 \
